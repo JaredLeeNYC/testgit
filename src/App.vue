@@ -3,10 +3,9 @@
 import firebase from "firebase/app";
 import { groupBy } from "lodash";
 import "firebase/firestore";
-const c = firebase.initializeApp({ projectId: "building-bfcec" })
-console.log(c)
+const c = firebase.initializeApp({ projectId: "building-bfcec" });
+console.log(c);
 const db = c.firestore();
-console.log(db)
 
 export default {
   name: "App",
